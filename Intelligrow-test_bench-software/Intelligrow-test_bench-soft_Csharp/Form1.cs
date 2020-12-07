@@ -11,7 +11,7 @@ namespace Intelligrow_test_bench_soft_Csharp
     public partial class Form1 : Form
     {
         //const string DllPath = ".\\mcp2210_dll_um_x86.dll";
-        const string DllPath = "C:\\Users\\jeanf\\Desktop\\git\\Intelligrow-test_bench-software\\Library\\mcp2210_dll_um_x86.dll";
+        const string DllPath = "C:\\Users\\jeanf\\Desktop\\git\\Intelligrow-test_bench\\Library\\mcp2210_dll_um_x86.dll";
 
         /* API for getting access to the USB device */
         [DllImport(DllPath, EntryPoint = "Mcp2210_GetLibraryVersion", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.StdCall)]
